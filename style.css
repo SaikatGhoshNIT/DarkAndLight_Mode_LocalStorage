@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body.dark{
+    background-color: black;
+    color: azure;
+}
+
+body.light{
+    background-color: azure;
+    color: black;
+}
