@@ -14,7 +14,14 @@
             //getting current mode
             const currentMode = localStorage.getItem('mode')
             //changing the mode
-            const newMode
+            const newMode = currentMode === "dark" ? "light" : "dark"
+
+
+        }
+
+        //Check and set the mode on page load with local storage
+        function checkMode(){
+            const saveMode = (localStorage.getItem('mode') === 'dark' | 'light') ? localStorage.getItem('mode') : 'light'
         }
 
     </script>
