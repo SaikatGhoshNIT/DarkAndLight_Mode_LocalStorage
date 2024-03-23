@@ -13,7 +13,7 @@ function toggle() {
 function checkMode() {
     const body = document.body;
     const saveMode =
-        (localStorage.getItem("mode") === "dark") | "light"
+        (localStorage.getItem("mode") === "dark" | "light")
             ? localStorage.getItem("mode")
             : "light";
     body.classList.add(saveMode);
