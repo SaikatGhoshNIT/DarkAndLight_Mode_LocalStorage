@@ -12,7 +12,8 @@ function toggle() {
 //Check and set the mode on page load with local storage
 function checkMode() {
     const body = document.body;
-    const saveMode = localStorage.getItem("mode")
+    //localStorage.clear()
+    const saveMode = localStorage.getItem("mode")// === null ? "light" : localStorage.getItem("mode")
         /*(localStorage.getItem("mode") === "dark" | "light")
             ? localStorage.getItem("mode")
             : "light";*/
