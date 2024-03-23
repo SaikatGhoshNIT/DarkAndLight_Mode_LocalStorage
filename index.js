@@ -19,3 +19,5 @@ function checkMode() {
             : "light";*/
     body.classList.add(saveMode);
 }
+
+checkMode()
